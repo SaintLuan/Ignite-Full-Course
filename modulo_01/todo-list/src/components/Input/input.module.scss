@@ -1,0 +1,11 @@
+.inputWrapper{
+    padding: 1rem ;
+    background: var(--gray-500);
+    color: var(--gray-300);
+    width: 35%;
+    border-radius: 8px;
+
+    @media screen and (max-width: 480px) {
+        width: 55%;
+    }
+}

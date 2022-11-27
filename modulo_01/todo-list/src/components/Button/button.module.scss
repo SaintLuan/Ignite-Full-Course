@@ -1,0 +1,23 @@
+.buttonWrapper{
+    padding: 1rem;
+    border-radius: 8px;
+    background: var(--blue-dark);
+
+    font: 700 .85rem/1 'Inter', sans-serif;
+    color: var(--gray-100);
+    cursor: pointer;
+
+    display: flex;
+    gap: .25rem;
+    align-items: center;
+
+    svg{
+        width: 1rem;
+        height: 1rem;
+    }
+
+    transition: background ease-in-out .85s;
+    &:hover{
+        background: var(--blue);
+    }
+}
